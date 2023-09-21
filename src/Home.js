@@ -1,8 +1,16 @@
 import React from 'react'
+import './Home.css';
 
 const Home = () => {
+  
+  function projects () {
+
+  };
+
   return (
-    <div>Home</div>
+    <div> 
+      <button onClick={projects} className='Projects-Tab'> Projects Tab </button>
+    </div>
   )
 }
 

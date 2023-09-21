@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='centered-container'>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/projects" element={<Projects/>}/>
